@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeBrix – Fast. Smart. Visionary.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="hero">
+        <img src="images/codebrix-logo.png" alt="CodeBrix Logo" class="logo">
+        <h1>CodeBrix</h1>
+        <p class="tagline">Fast. Smart. Visionary.</p>
+        <p class="btn-primary">Stay Tuned</p>
+    </header>
+
+    <section id="about" class="section">
+        <h2>Building Tomorrow’s Software Today</h2>
+        <p>
+            At CodeBrix, we craft high-performance solutions that accelerate your business.
+            Our team turns ambitious ideas into scalable, future-ready products—swiftly and intelligently.
+        </p>
+    </section>
+
+    <section id="features" class="section features">
+        <div class="feature">
+            <h3>Speed</h3>
+            <p>Delivering robust applications faster than traditional development cycles.</p>
+        </div>
+        <div class="feature">
+            <h3>Intelligence</h3>
+            <p>Smart engineering and forward-thinking design to stay ahead of the curve.</p>
+        </div>
+        <div class="feature">
+            <h3>Vision</h3>
+            <p>Transforming bold ideas into products that define the future of technology.</p>
+        </div>
+    </section>
+
+    <footer>
+        © <span id="year"></span> CodeBrix. All rights reserved.
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>
